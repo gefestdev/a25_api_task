@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^$ public/ [L]
+#RewriteRule ^$ http://a25_api_task/ [L]
+RewriteRule ((?s).*) public/$1 [L]
